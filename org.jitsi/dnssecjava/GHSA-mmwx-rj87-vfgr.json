@@ -6,7 +6,7 @@
 	"package_slug": "maven/org.jitsi/dnssecjava",
 	"title": "DNSJava affected by KeyTrap - NSEC3 closest encloser proof can exhaust CPU resources",
 	"description": "Users using the `ValidatingResolver` for DNSSEC validation can run into CPU exhaustion with specially crafted DNSSEC-signed zones.",
-	"date": "2024-09-12",
+	"date": "2024-11-18",
 	"pubdate": "2024-07-22",
 	"affected_range": "[,2.0.0]",
 	"affected_versions": "All versions up to 2.0.0",
