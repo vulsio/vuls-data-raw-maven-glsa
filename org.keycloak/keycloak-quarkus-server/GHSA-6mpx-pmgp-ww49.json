@@ -1,13 +1,12 @@
 {
 	"identifiers": [
-		"CVE-2024-10973",
 		"GHSA-6mpx-pmgp-ww49"
 	],
-	"identifier": "CVE-2024-10973",
+	"identifier": "GHSA-6mpx-pmgp-ww49",
 	"package_slug": "maven/org.keycloak/keycloak-quarkus-server",
-	"title": "Keycloak vulnerable to Cleartext Transmission of Sensitive Information",
-	"description": "A vulnerability was found in Keycloak. The environment option `KC_CACHE_EMBEDDED_MTLS_ENABLED` does not work and the JGroups replication configuration is always used in plain text which can allow an attacker that has access to adjacent networks related to JGroups to read sensitive information.",
-	"date": "2024-12-18",
+	"title": "Duplicate Advisory: Keycloak vulnerable to Cleartext Transmission of Sensitive Information",
+	"description": "# Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-g6qq-c9f9-2772. This link is maintained to preserve external references.\n\n# Original Description\nA vulnerability was found in Keycloak. The environment option `KC_CACHE_EMBEDDED_MTLS_ENABLED` does not work and the JGroups replication configuration is always used in plain text which can allow an attacker that has access to adjacent networks related to JGroups to read sensitive information.",
+	"date": "2025-02-05",
 	"pubdate": "2024-12-18",
 	"affected_range": "[25.0.0,26.0.6)",
 	"fixed_versions": [
@@ -17,8 +16,8 @@
 	"not_impacted": "All versions before 25.0.0, all versions starting from 26.0.6",
 	"solution": "Upgrade to version 26.0.6 or above.",
 	"urls": [
-		"https://nvd.nist.gov/vuln/detail/CVE-2024-10973",
 		"https://github.com/advisories/GHSA-6mpx-pmgp-ww49",
+		"https://nvd.nist.gov/vuln/detail/CVE-2024-10973",
 		"https://github.com/keycloak/keycloak/issues/28750",
 		"https://github.com/keycloak/keycloak/issues/34644",
 		"https://github.com/keycloak/keycloak/pull/28756",
@@ -34,6 +33,6 @@
 		"CWE-937",
 		"CWE-1035"
 	],
-	"uuid": "d97a6077-51a5-4331-a56b-fa388c6757c8",
+	"uuid": "1a8157f8-e22e-4b19-a779-871cff3bd207",
 	"cvss_v3": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
 }
